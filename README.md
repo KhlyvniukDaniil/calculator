@@ -1,5 +1,5 @@
 # Inline calculator
-## [deployment]([https://daniil-khlyvniuk.github.io/inline-calculator/](https://khlyvniukdaniil.github.io/calculator/))
+## [deployment]([https://daniil-khlyvniuk.github.io/inline-calculator/](https://khlyvniukdaniil.github.io/calculator/)
 ![](img/screenshot.png)
 
 ### Description
