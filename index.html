@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Calc</title>
+	<link href="./styles/reset.css" rel="stylesheet">
+	<link href="./styles/style.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="./img/fav.png" />
+</head>
+<body>
+<main class="calculator">
+	<div class="calculator__screen">
+		<button class="clearAll" data="clearAll">Clear all</button>
+		<label>
+			<textarea disabled class="calculator__input">2*(2-(3+7))^2</textarea>
+		</label>
+	</div>
+	<div class="calculator__keyboard">
+		<button class="calculator__key clear" data="C">C</button>
+		<button class="calculator__key key-operation" data="(">(</button>
+		<button class="calculator__key key-operation" data=")">)</button>
+		<button class="calculator__key key-operation" data="+">+</button>
+
+		<button class="calculator__key" data="1">1</button>
+		<button class="calculator__key" data="2">2</button>
+		<button class="calculator__key" data="3">3</button>
+		<button class="calculator__key key-operation" data="-">&#8722;</button>
+
+		<button class="calculator__key" data="4">4</button>
+		<button class="calculator__key" data="5">5</button>
+		<button class="calculator__key" data="6">6</button>
+		<button class="calculator__key key-operation" data="/">&#247;</button>
+
+		<button class="calculator__key" data="7">7</button>
+		<button class="calculator__key" data="8">8</button>
+		<button class="calculator__key" data="9">9</button>
+		<button class="calculator__key key-operation" data="*">&#215;</button>
+
+		<button class="calculator__key" data="0">0</button>
+
+		<button class="calculator__key key-operation" data=".">,</button>
+		<button class="calculator__key exponentiation" data="^">x<span>y</span>
+		</button>
+		<button class="calculator__key key-result key-operation" data="result">=
+		</button>
+	</div>
+</main>
+<script type="module" src="JS/index.js"></script>
+</body>
+</html>
